@@ -35,6 +35,8 @@
 
 ---
 ## 📁 專案架構
+
+```
 financial-news-analysis/
 ├── data/
 │   └── 鉅亨新聞.csv                     # 已爬取的鉅亨網新聞資料
@@ -48,6 +50,7 @@ financial-news-analysis/
 │   └── 金融大數據報告.pdf            # 專案分析報告與結果彙整
 │
 └── README.md                        # 專案說明與使用說明（建議補上）
+```
 
 ---
 
