@@ -34,20 +34,20 @@
 
 
 ---
-
 ## 📁 專案架構
-```
 financial-news-analysis/
-├── crawler.py # 爬取鉅亨網新聞
-├── cleaning.py # 處理HTML與文本雜訊
-├── keyword_analysis.py # 關鍵詞統計與分析
-├── visualization.py # 長條圖 / 折線圖 / 文字雲
 ├── data/
-│ ├── news.csv # 整理後的新聞資料
-│ └── stock_data.csv # 台積電與大盤指數資料
-└── report/
-└── 金融大數據報告.pdf
-```
+│   └── 鉅亨新聞.csv                     # 已爬取的鉅亨網新聞資料
+│
+├── scripts/
+│   ├── crawler.py # 爬蟲腳本：抓取鉅亨網最新新聞
+│   ├── cleaner.py # 資料清理模組：移除 HTML 標籤與特殊符號
+│   └── keyword_analysis and visualization.py # 關鍵詞分析與視覺化（長條圖、折線圖、文字雲）
+│
+├── report/
+│   └── 金融大數據報告.pdf            # 專案分析報告與結果彙整
+│
+└── README.md                        # 專案說明與使用說明（建議補上）
 
 ---
 
